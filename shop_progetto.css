@@ -1,0 +1,52 @@
+body{
+    background-color: black;
+}
+
+.shop{
+    margin-top: 50px;
+}
+
+.title_shop{
+    margin-top: 50px;
+    margin-left: 95vh;
+    margin-right: 94vh;
+    margin-bottom: 50px;
+    font-size: 60px;
+    font-weight: bolder;
+    color: #fff;
+    border: 2px solid black;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.title_shop:hover{
+    border: 2px solid #fff;
+}
+
+.shop_images{
+    width: 250px;
+    height: 25vh;
+    border: 2px solid black;
+    margin-left: 15px;
+    margin-right: 30px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.shop_images:hover{
+    border: 2px solid #fff;
+}
+
+.paragraph_shop{
+    margin-left: 15px;
+    font-size: 13px;
+    color: #fff;
+}
+
+.price_shop{
+    margin-left: 15px;
+    font-size: 13px;
+    color: #fff;
+}

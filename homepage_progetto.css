@@ -1,0 +1,251 @@
+*{
+    margin: 0;
+    font-family: sans-serif;
+    /*overflow-x: hidden;
+    overflow-y: hidden;*/
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.page{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.60), rgba(0,0,0,0.60)), url("Project_Images/background.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.navbar{
+    height: 8%;
+    width: 85%;
+    margin: auto;
+    padding: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+    width: 220px;
+    cursor: pointer;
+    margin-left: -50px;
+    border: 3px solid transparent;
+}
+
+.navbar ul{
+    margin-right: -35px;
+}
+
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+}
+
+.navbar ul li a{
+    font-size: 24px;
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.navbar ul li::after{
+    content: '';
+    height: 3px;
+    width: 0;
+    background: #fff;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.5s;
+}
+
+.navbar ul li:hover::after{
+    width: 100%;
+}
+
+.content{
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    color: #fff;
+}
+
+.content h1{
+    font-size: 70px;
+    margin-top: 80px;
+}
+
+.content p{
+    margin: 20px auto;
+    font-weight: 100;
+    line-height: 25px;
+}
+
+.first_button{
+    width: 200px;
+    padding: 15px 0;
+    text-align: center;
+    margin: 20px 10px;
+    border-radius: 25px;
+    font-weight: bold;
+    border: 3px solid #adadad;
+    background: transparent;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+}
+
+.first_button a{
+    text-decoration: none;
+    color: #ccc;
+}
+
+/*.first_button a{
+    background: lightblue;
+    height: 100%;
+    width: 0;
+    border-radius: 25px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+    transition: 0.5s;
+}*/
+
+.first_button:hover{
+    border: 3px solid #fff;
+}
+
+.first_button:hover a{
+    color: #fff;
+}
+
+.images{
+    margin-top: 5px;
+    display: flex;
+    justify-content: center;
+    background-color: black;
+}
+
+#img{
+    height: 250px;
+    width: 250px;
+    border: 4px solid black;
+    margin-left: 1rem;
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+
+#img:hover{
+    border: 4px solid #fff;
+}
+
+.who_are{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+}
+
+#title_who_are{
+    font-size: 40px;
+    font-weight: bolder;
+}
+
+.paragraph_who_are{
+    color: #fff;
+    font-size: 16px;
+    margin-top: 12%;
+    line-height: 30px;
+    width: 30%;
+    margin-left: 180px;
+    
+}
+
+#img_who_are{
+    justify-content: right;
+    width: 50%;
+    height: 100vh;
+}
+
+.contact{
+    margin: 5px 0 0 0;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: black;
+}
+
+#title_contact{
+    color: #fff;
+    font-size: 40px;
+    font-weight: bolder;
+    margin-left: 20vh;
+    display: flex;
+    justify-content: center;
+}
+
+.information{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    color: #fff;
+    line-height: 40px;
+    margin-left: 8%;
+    text-align: center;
+}
+
+.contact form{
+    margin-left: 20vh;
+    display: flex;
+    justify-content: center;
+}
+
+.user_details .input_box input{
+    height: 5vh;
+    width: 50vh;
+    border: 2px solid #fff;
+    padding-left: 2px;
+    font-size: 16px;
+    margin-bottom: 5px;
+    background: transparent;
+    color: #fff;
+}
+
+textarea{
+    height: 10vh;
+    width: 50vh;
+    border: 2px solid #fff;
+    padding-left: 2px;
+    font-size: 16px;
+    margin-bottom: 5px;
+    background: transparent;
+    color: #fff;
+}
+
+.contact span{
+    color: #fff;
+    font-size: 16px;
+}
+
+.second_button{
+    border: 2px solid #fff;
+    width: 20%;
+    height: 2vh;
+    background: transparent;
+    width: 200px;
+    padding: 15px;
+    padding-bottom: 30px;
+    text-align: center;
+    background: transparent;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    color: #fff;
+    font-size: 16px;
+    margin-left: 25%;
+}
